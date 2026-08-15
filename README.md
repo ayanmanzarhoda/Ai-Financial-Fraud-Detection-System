@@ -48,6 +48,23 @@ Where:
 * `0` = Not Fraud
 * `1` = Fraud
 
+### Note-
+
+This project uses a financial transaction dataset for fraud detection.
+
+The dataset file (`fraud_detection.csv`) is not included in this repository because
+it exceeds GitHub's 100 MB file size limit.
+
+### Dataset Setup
+
+1. Download the dataset from the original dataset source.
+2. Rename the dataset file to:
+   `fraud_detection.csv`
+3. Place the file in the root directory of this project.
+
+### Dataset Source
+Dataset Source: [Kaggle - Fraud Detection Dataset](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
+
 ## Exploratory Data Analysis
 
 Before training the model, I performed some basic analysis on the dataset.
@@ -210,15 +227,17 @@ The application then shows whether the transaction can be fraud or seems not to 
 ## Project Structure
 
 ```text
-Financial-Fraud-Detection-System/
+Ai-Financial-Fraud-Detection-System/
 │
 ├── fraud_detection.csv
 ├── analysis_model.ipynb
 ├── app.py
 ├── fraud_detection_pipeline.pkl
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
+
 
 ## Technologies Used
 
