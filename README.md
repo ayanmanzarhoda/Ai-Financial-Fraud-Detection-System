@@ -219,7 +219,7 @@ The available transaction types in the app are:
 PAYMENT
 TRANSFER
 CASH_OUT
-DEPOSITE
+CASH_IN
 ```
 
 The application then shows whether the transaction can be fraud or seems not to be fraud.
