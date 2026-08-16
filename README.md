@@ -255,13 +255,13 @@ Ai-Financial-Fraud-Detection-System/
 First clone the repository:
 
 ```bash
-git clone <your-github-repository-link>
+git clone <https://github.com/ayanmanzarhoda/Ai-Financial-Fraud-Detection-System>
 ```
 
 Go to the project folder:
 
 ```bash
-cd Fraud-Detection
+cd Ai-Financial-Fraud-Detection-System
 ```
 
 Install the required libraries:
